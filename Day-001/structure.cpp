@@ -16,7 +16,9 @@ struct rectangle
 int main()
 {
     // structure declaration
-    struct rectangle r;
+    struct rectangle r; 
+    // in cpp writing struct in not necessary
+    rectangle r;
 
     //  declaring multiple structure
     struct rectangle r1, r2, r3;

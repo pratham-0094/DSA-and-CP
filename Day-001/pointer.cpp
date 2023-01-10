@@ -53,7 +53,7 @@ int main()
     // initializing element
     p[0] = 10;
     p[2] = 20;
-    delete[] p // release the memory that it allocated dynamically
+    delete[] p; // release the memory that it allocated dynamically
     // use [] bracket as it is an array
-    free(p) // in c
+    free(p); // in c
 }
