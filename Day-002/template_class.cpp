@@ -3,7 +3,7 @@
 using namespace std;
 
 // template/generic class
-// used for generic programming
+// used for generic programing
 // same class for multiple datatypes
 template <class T>
 class Rectangle
