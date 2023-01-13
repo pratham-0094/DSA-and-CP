@@ -3,7 +3,7 @@
 // recursive function are traced in the formm of a tree
 
 // generalized recursion
-// void fun(n)
+// void fun(int n)
 // {
 //     if (n > 0)
 //     {
