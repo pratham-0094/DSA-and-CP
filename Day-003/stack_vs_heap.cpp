@@ -54,3 +54,28 @@
 // }
 // p is a pointer in stack that point to a array of size 5 in heap memory
 // it is important that we request for allocation so that we should deallocate it
+
+// explanation
+// for above function in stack
+
+// |---------------------|
+// |    func2()          |
+// |---------------------|
+// |    func1()          |    <------ this is stack
+// |---------------------|
+// |    a , b            |
+// |---------------------|
+
+// when fun2 terminated then it removed from stack and control goes to fun1
+
+// Heap Memory --> unorganised memory when required take the momory,
+// when don't required release the memory
+// programs can not access heap momory directly but access using pointer
+// pointer size depends of its datatype, get allocate in stack
+// p = new int[] --> momory will allocated in heap
+// p = (int *)malloc(5 * sizeof(int))
+
+// for deallocation of memory
+// p = NULL or delete []p
+// if it not been deallocated then it wiil used by program
+// casuse loss of memory
