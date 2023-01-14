@@ -19,7 +19,7 @@ int func(int n)
 // T(n)-----|
 //          ------> T(n -1) + 2  | when n > 0
 
-// By substitution method`
+// By substitution method
 // T(n) = T(n - 1) + 2 ---------eqn (i)
 // T(n - 1) = T(n - 2) + 2 ---------eqn (ii)
 // T(n - 2) = T(n - 3) + 2 ---------eqn (iii)
