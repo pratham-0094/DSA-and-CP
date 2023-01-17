@@ -168,10 +168,11 @@ int main()
     A.Display();
 
     // array operations
-    A.Get(1);
+    cout << A.Get(1) << endl;
     A.Set(2, 4);
-    A.Max();
-    A.Min();
-    A.Avg();
-    A.Sum();
+    A.Display();
+    cout << A.Max() << endl;
+    cout << A.Min() << endl;
+    cout << A.Avg() << endl;
+    cout << A.Sum() << endl;
 }
