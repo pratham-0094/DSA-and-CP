@@ -142,6 +142,7 @@ int main()
             d1.set(i, j, value);
         }
     }
+    cout << "element are" << endl;
     d1.display();
 
     cout << "enter lower triangle element" << endl;
@@ -155,5 +156,6 @@ int main()
             d2.set(i, j, value);
         }
     }
+    cout << "element are" << endl;
     d2.display();
 }

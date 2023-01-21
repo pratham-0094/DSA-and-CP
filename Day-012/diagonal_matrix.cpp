@@ -83,5 +83,6 @@ int main()
     d.set(3, 3, 3);
     d.set(4, 4, 9);
     d.set(5, 5, 7);
+    cout << "element are" << endl;
     d.display();
 }
