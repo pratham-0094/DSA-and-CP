@@ -42,7 +42,7 @@ int pop(struct stack *st)
     if (st->top == -1)
     {
         cout << "stack is empty, pop will not be performed" << endl;
-        return 0;
+        return -1;
     }
     else
         return st->s[st->top--];
