@@ -53,7 +53,7 @@ int peek(struct stack st, int pos)
     if (st.top - pos + 1 < 0)
     {
         cout << "index invalid" << endl;
-        return 0;
+        return -1;
     }
     else
         return st.s[st.top - pos + 1];
