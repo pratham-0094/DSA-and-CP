@@ -7,6 +7,15 @@
         "ostream": "cpp",
         "random": "cpp",
         "new": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "system_error": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp"
     }
 }
