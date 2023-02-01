@@ -13,7 +13,7 @@
 
 // count sort                   |                                        |
 // bucket / bin sort            |     O(n)                               |        index based sorts
-// redix sort                   |  less time but more space required     |
+// radix sort                   |  less time but more space required     |
 
 // criteria for analysis
 // number of comparsions
